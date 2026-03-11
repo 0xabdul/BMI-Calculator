@@ -1,0 +1,187 @@
+.age-cont,.height-cont{
+    padding:1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:rgb(250, 235, 250);
+    line-height:0.1rem;
+    border-radius:1.5rem;
+}
+.fl,.fl2{
+    display: flex;
+    gap:5rem;
+}
+.incre,.in{
+    border-radius:50%;
+    width:1rem;
+    height:1rem;
+    padding:0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(139, 23, 162);
+    color: white;
+    font-size:1.5rem;
+    font-weight:600;
+    cursor: pointer;
+  transition: all 0.3s ease;
+}
+.incre:hover{
+    background-color: rgb(184, 113, 250);
+}
+.in:hover{
+    background-color: rgb(184, 113, 250);
+}
+.incre:active{
+    transform: scale(0.8);
+}
+.in:active{
+    transform: scale(0.8);
+}
+.decre,.de{
+    border-radius:50%;
+    width:1rem;
+    height:1rem;
+    padding:0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(139, 23, 162);
+    color: white;
+    font-size:1.5rem;
+    font-weight:600;
+    cursor: pointer;
+  transition: all 0.3s ease;
+}
+.decre:hover{
+    background-color: rgb(184, 113, 250);
+}
+.de:hover{
+    background-color: rgb(184, 113, 250);
+}
+.de:active{
+    transform: scale(0.8);
+}
+.decre:active{
+    transform: scale(0.8);
+}
+.age-number,.height-number{
+    font-size:2.5rem;
+    font-weight:600;
+}
+.age-name,.height-name{
+    font-size:1rem;
+    font-weight:800;
+}
+.main-container,.fi{
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fi{
+    background-color:white;
+    padding:1.5rem;
+    border-radius:3rem;
+    box-shadow: 0.5rem 0.5rem 5rem  rgb(224, 204, 224);
+}
+button{
+    padding: 1rem;
+    width:25rem;
+    height:4rem;
+    border-style: none;
+    background-color: rgb(243, 143, 243);
+    border-radius:3rem;
+    font-size: 1.3rem;
+    font-weight:1000;
+    cursor: pointer;
+  transition: all 0.5s ease;
+}
+button:hover{
+    background-color: rgb(195, 43, 226);
+}
+button:active{
+    transform: scale(0.8);
+}
+.box{
+    display: flex;
+    gap:1rem;
+}
+.show{
+    border-radius:3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding:1.5rem;
+    line-height:0.1;
+    gap:0.3rem;
+    box-shadow: 0.5rem 0.5rem 5rem  rgb(235, 203, 235);
+}
+h2{
+    text-align: center;
+    font-size:3.5rem;
+    font-weight:1000;
+}
+.result{
+    text-align: center;
+    font-size:2rem;
+    font-weight:1000;
+}
+.he{
+    font-size:1.3rem;
+    text-align: center;
+}
+.slex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height:0.01rem;
+}
+@media (max-width:460px) {
+    h1{
+        font-size:1.5rem;
+    }
+    .hi,.li{
+        font-size:5.5vw;
+        width:85vw;
+    }
+    .fi{
+        width:80vw;
+    }
+    .age-cont{
+        width:33vw;
+    }
+    .height-cont{
+        width:33vw;
+    }
+    .fl,.fl2{
+        gap:13vw;
+    }
+    .show{
+        width:80vw;
+    }
+    .ui{
+        font-size: 10vw;
+    }
+    .slex{
+        font-size:5.5vw;
+    }    
+}
+@media (max-width:240px) {
+    .box{
+        flex-direction: column;
+    }
+    .age-cont,.height-cont{
+        width:60vw;
+    }
+    .fl,.fl2{
+        gap:30vw;
+    }
+    h1{
+        font-size:10vw;
+    }
+}
