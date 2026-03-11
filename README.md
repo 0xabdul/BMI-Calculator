@@ -1,16 +1,35 @@
-# React + Vite
+# BMI Calculator 🖩
+A simple and interactive BMI (Body Mass Index) Calculator built using React and Vite. This app helps you calculate your BMI based on your weight and height and shows your health category
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🛠 Tools Used
+**React** – For building the user interface
 
-Currently, two official plugins are available:
+**Vite** – For fast development and bundling
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
+ <li><a href="https://bmi-calculator-dssuh62bw-charans-projects-bc124269.vercel.app/">CLICK ME !</a></li>
 
-## React Compiler
+ ## 💻 Features
+Enter your weight and height to calculate BMI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Displays BMI value and health category (Underweight, Normal, Overweight, Obese)
 
-## Expanding the ESLint configuration
+Responsive and easy-to-use 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+### Clone the repository
+
+```git clone https://github.com/0xabdul/BMI-Calculator.git```
+
+### Navigate into the project folder
+
+```cd BMI-Calculator```
+
+### Install dependencies
+
+```npm install```
+
+### Start the development server
+
+```npm run dev```
